@@ -5,6 +5,10 @@ for a given website.
 
 In this particular case, is a website that contains labeled faces for benchmark verification
 
+This project is using [scrapy](https://scrapy.org/) to obtain the images from
+a website and [face_recognition](https://github.com/ageitgey/face_recognition/)
+tool to calculate face encodings.
+
 <!-- GETTING STARTED -->
 ## Getting Started
 ***
