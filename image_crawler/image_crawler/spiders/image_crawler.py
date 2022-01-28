@@ -2,7 +2,7 @@ import scrapy
 
 from image_crawler.items import ImageCrawlerItem
 
-from image_crawler.image_crawler.settings import WEB_TO_CRAWL
+from image_crawler.settings import WEB_TO_CRAWL
 
 
 class ImageDownloaderCrawler(scrapy.Spider):

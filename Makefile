@@ -11,10 +11,10 @@ RED="\\e[91m"
 
 run:
 	@echo "${BLUE}Downloading images...${REGULAR}"
-	@docker run -v $(PWD)/image_crawler:/app/image_crawler/ average-face-calculus
+	@docker run -v $(PWD)/image_crawler:/app/image_crawler/ -u $(whoami) average-face-calculus
 	@echo "${BLUE}Finished${REGULAR}"
 	@echo "${BLUE}Calculating average face encodings...${REGULAR}"
-	@docker run -v $(PWD)/image_crawler:/app/image_crawler/ average-face-calculus python main.py
+	@docker run -v $(PWD)/image_crawler:/app/image_crawler/ -u $(whoami) average-face-calculus python main.py
 	@echo "${BLUE}Finished${REGULAR}"
 
 build:
