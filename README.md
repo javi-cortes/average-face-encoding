@@ -25,4 +25,5 @@ images from
 2. Execute ```make {build,run}```
 3. The average encoding result should be prompted and stored on average_face_encodings.txt
 
-
+For running the test suite:
+```make test```
