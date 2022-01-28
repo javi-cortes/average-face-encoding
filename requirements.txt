@@ -1,0 +1,4 @@
+face_recognition
+Scrapy~=2.5.1
+pytest
+python-dotenv==0.19.2

@@ -1,0 +1,2 @@
+class NoUriProviden(Exception):
+    pass
