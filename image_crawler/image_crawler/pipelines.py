@@ -5,9 +5,7 @@
 
 
 # useful for handling different item types with a single interface
-from io import BytesIO
 
-import face_recognition
 from scrapy.pipelines.images import ImagesPipeline
 
 

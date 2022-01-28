@@ -7,9 +7,7 @@ from image_crawler.settings import WEB_TO_CRAWL
 
 class ImageDownloaderCrawler(scrapy.Spider):
     name = "img_crawler"
-    start_urls = [
-        WEB_TO_CRAWL
-    ]
+    start_urls = [WEB_TO_CRAWL]
 
     def parse(self, response, **kwargs):
         item = ImageCrawlerItem()
