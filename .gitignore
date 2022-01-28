@@ -154,3 +154,6 @@ cython_debug/
 *crawl-oauth2.json
 *list-oauth2.json
 *youtube_handler.py-oauth2.json
+
+image_crawler/image_set
+image_crawler/average_face_encodings.txt
